@@ -1,0 +1,84 @@
+.home-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #011230;
+}
+.home-navlink {
+  display: contents;
+}
+.home-image {
+  top: 85px;
+  left: 110px;
+  width: 100px;
+  position: absolute;
+  object-fit: cover;
+  transition: 0.3s;
+  text-decoration: none;
+}
+.home-image:hover {
+  box-shadow: 3px 2px 3px 0px #5c8b9b;
+}
+.home-text {
+  top: 125px;
+  left: 295px;
+  color: rgb(92, 139, 155);
+  position: absolute;
+  transition: 0.3s;
+}
+.home-text:hover {
+  color: #e20b12;
+}
+.home-text1 {
+  font-family: Fira Sans;
+}
+.home-text3 {
+  top: 185px;
+  left: 540px;
+  color: rgb(226, 11, 18);
+  position: absolute;
+  transition: 0.3s;
+  font-family: Fira Sans;
+}
+.home-text3:hover {
+  color: #5c8b9b;
+}
+.home-text4 {
+  top: 254px;
+  left: 117px;
+  color: rgb(253, 232, 165);
+  position: absolute;
+  transition: 0.3s;
+  font-family: Fira Sans;
+}
+.home-text4:hover {
+  color: #b7b1b5;
+}
+.home-text5 {
+  top: 400px;
+  left: 455px;
+  margin: auto;
+  opacity: 0;
+  position: absolute;
+  font-size: 50px;
+  transition: 0.3s;
+  font-family: Fira Sans;
+}
+.home-text5:hover {
+  left: 400px;
+  color: #5c8b9b;
+  margin: auto;
+  opacity: 1;
+  font-size: 50px;
+  box-shadow: 1px 1px 100000px 600px #fde8a5;
+}
+@media(max-width: 479px) {
+  .home-image {
+    top: 55px;
+    left: 30px;
+  }
+}
