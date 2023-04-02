@@ -1,0 +1,137 @@
+.app-component-container {
+  display: flex;
+  position: relative;
+}
+.app-component-navlink {
+  display: contents;
+}
+.app-component-image {
+  top: 1px;
+  left: 1px;
+  width: 100px;
+  position: absolute;
+  object-fit: cover;
+  transition: 0.3s;
+  text-decoration: none;
+}
+.app-component-image:hover {
+  box-shadow: 3px 2px 3px 0px #5c8b9b;
+}
+.app-component-root-class-name {
+  top: 85px;
+  left: 110px;
+  position: absolute;
+}
+.app-component-root-class-name1 {
+  top: 85px;
+  left: 110px;
+  position: absolute;
+}
+.app-component-root-class-name2 {
+  top: 85px;
+  left: 110px;
+  position: absolute;
+}
+.app-component-root-class-name3 {
+  top: 85px;
+  left: 110px;
+  position: absolute;
+}
+@media(max-width: 479px) {
+  .app-component-image {
+    top: 55px;
+    left: 30px;
+  }
+}
+
+.explore-options-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #33506c;
+}
+.explore-options-text {
+  top: 285px;
+  color: rgb(92, 139, 155);
+  right: 160px;
+  position: absolute;
+  box-shadow: rgb(253, 232, 165) 5px 5px 100px 39px;
+  transition: 0.3s;
+}
+.explore-options-text:hover {
+  box-shadow: 5px 5px 0px 2px #fde8a5;
+}
+.explore-options-text01 {
+  top: 390px;
+  color: rgb(92, 139, 155);
+  right: 155px;
+  position: absolute;
+  box-shadow: rgb(253, 232, 165) 5px 5px 100px 39px;
+  transition: 0.3s;
+}
+.explore-options-text01:hover {
+  box-shadow: 5px 5px 0px 2px #fde8a5;
+}
+.explore-options-text02 {
+  top: 495px;
+  color: rgb(92, 139, 155);
+  right: 165px;
+  position: absolute;
+  box-shadow: rgb(253, 232, 165) 5px 5px 100px 39px;
+  transition: 0.3s;
+}
+.explore-options-text02:hover {
+  box-shadow: 5px 5px 0px 2px #fde8a5;
+}
+.explore-options-text03 {
+  top: 390px;
+  left: 160px;
+  color: rgb(92, 139, 155);
+  position: absolute;
+  box-shadow: rgb(253, 232, 165) 5px 5px 100px 39px;
+  transition: 0.3s;
+}
+.explore-options-text03:hover {
+  box-shadow: 5px 5px 0px 2px #fde8a5;
+}
+.explore-options-text04:hover {
+  box-shadow: 5px 5px 0px 2px #fde8a5;
+}
+.explore-options-navlink {
+  top: 285px;
+  left: 160px;
+  color: rgb(92, 139, 155);
+  position: absolute;
+  box-shadow: rgb(253, 232, 165) 5px 5px 100px 39px;
+  transition: 0.3s;
+  text-decoration: none;
+}
+.explore-options-navlink:hover {
+  box-shadow: 5px 5px 0px 2px #fde8a5;
+}
+.explore-options-navlink1 {
+  color: rgb(253, 232, 165);
+  transition: 0.3s;
+  border-width: 0px;
+  text-decoration: none;
+  background-color: rgb(51, 80, 108);
+}
+.explore-options-navlink1:hover {
+  color: #33506c;
+  background-color: #fde8a5;
+}
+.explore-options-text09 {
+  top: 495px;
+  left: 140px;
+  color: rgb(92, 139, 155);
+  position: absolute;
+  box-shadow: rgb(253, 232, 165) 5px 5px 100px 39px;
+  transition: 0.3s;
+}
+.explore-options-text09:hover {
+  box-shadow: 5px 5px 0px 2px #fde8a5;
+}

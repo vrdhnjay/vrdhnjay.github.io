@@ -1,0 +1,45 @@
+.component-container {
+  display: flex;
+  position: relative;
+}
+.component-navlink {
+  display: contents;
+}
+.component-image {
+  top: 1px;
+  left: 1px;
+  width: 100px;
+  position: absolute;
+  object-fit: cover;
+  transition: 0.3s;
+  text-decoration: none;
+}
+.component-image:hover {
+  box-shadow: 3px 2px 3px 0px #5c8b9b;
+}
+.component-root-class-name {
+  top: 85px;
+  left: 110px;
+  position: absolute;
+}
+.component-root-class-name1 {
+  top: 85px;
+  left: 110px;
+  position: absolute;
+}
+.component-root-class-name2 {
+  top: 85px;
+  left: 110px;
+  position: absolute;
+}
+.component-root-class-name3 {
+  top: 85px;
+  left: 110px;
+  position: absolute;
+}
+@media(max-width: 479px) {
+  .component-image {
+    top: 55px;
+    left: 30px;
+  }
+}
